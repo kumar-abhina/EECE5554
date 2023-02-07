@@ -1,8 +1,0 @@
-<launch>
-<arg name="port" default="/dev/ttyUSB0" />
-<arg name="baud" default="4800" /> 
-<node name="gps_data_parser_node" pkg="gps_driver" type="driver.py" respawn="false" output="screen">
-    <param name = "port" value = "$(arg port)"/>
-    <param name = 'baud' value = "$(arg baud)"/>
-</node>
-</launch>

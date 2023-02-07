@@ -1,2 +1,0 @@
-gps_driver
--DCATKIN_DEVEL_PREFIX=/home/abhinav/catkin_ws/src/LAB1/devel -DCMAKE_INSTALL_PREFIX=/home/abhinav/catkin_ws/src/LAB1/install -G Unix Makefiles
