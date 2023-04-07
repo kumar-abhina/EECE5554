@@ -1,0 +1,4 @@
+<launch>
+  <include file = "$(find gps_driver)/launch/driver.launch"/>
+  <include file = "$(find imu_driver)/launch/driver.launch"/>
+</launch>
